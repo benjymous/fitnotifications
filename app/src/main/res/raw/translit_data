@@ -103,6 +103,9 @@ U+1F3FF
 # Zero width joiner (used in "family" emojis)
 U+200D
 
+# Camera emoji used by WhatsApp
+U+1F4F7     ['o]
+
 # Some other misc characters that the Fitbit charset doesn't include
 £   GBP
 €   EUR
