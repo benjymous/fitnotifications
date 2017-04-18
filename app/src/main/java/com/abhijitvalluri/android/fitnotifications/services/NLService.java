@@ -147,8 +147,13 @@ public class NLService extends NotificationListenerService {
         // GMail
         messageExtractors.put("com.google.android.gm", new IgnoreSummaryMessageExtractor());
 
+
+        // Play Music
+        messageExtractors.put("com.google.android.music", new NowPlayingMessageExtractor(true));
         // Spotify
         messageExtractors.put("com.spotify.music", new NowPlayingMessageExtractor(true));
+        // Deezer
+        messageExtractors.put("deezer.android.app", new NowPlayingMessageExtractor(true));
     }
 
     @Override
